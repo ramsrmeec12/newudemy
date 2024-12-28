@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Udemy clone</title>
+    <!--Google style sheet for fonts to be linked in this project-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap" rel="stylesheet">
+    <!--CSS style sheet linking-->
+    <link rel="stylesheet" href="style.css">
+    <!--font awesome cdn linking-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!--navigation bar and search bar-->
+    <div class="navbar">
+        <div class="navbar__s1">
+            <h1 class="navbar__s1__title">Udemy</h1>
+        </div>
+
+
+        <div class="navbar__s2">
+            <i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i>
+            <input class="navbar__s2__input" type="text"
+                placeholder="Search for anything studies, business, art, works etc..">
+        </div>
+
+
+        <div class="navbar__s3">
+            <p>Courses</p>
+             <!--Mylearning-->
+            <div class="mylearning">
+                <p>My learning</p>
+                <div class="mylearning__popup">
+                    <p>
+                        You did not purchased any course
+                    </p>
+                </div>
+            </div>
+            <i class="fa-solid fa-cart-shopping" style="color: #000000;"></i>
+            <i class="fa-solid fa-bell" style="color: #000000;"></i>
+            <i class="fa-solid fa-user" style="color: #000000;"></i>
+        </div>
+    </div>
+
+    <!--categories bar-->
+    <div class="categories">
+        <p>Development</p>
+        <p>Business</p>
+        <p>IT & Software</p>
+        <p> Personal Development</p>
+        <p>Design</p>
+    </div>
+
+    <!--advertisemnt img-->
+    <div class="advertisement">
+        <img src="./IMAGES/ADVERTISEMNT IMG.png" alt="ADVERTISEMNT">
+        <div class="advertisement__offer">
+            <P>Udemy Flash Sale</P>
+            <P>Only one time offer but lifetime learning</P>
+        </div>
+    </div>
+
+
+    <!--Recommended-->
+    <div class="--Recommended--">
+        <h1 class="Recommended__title">Recommended for you</h1>
+        <div class="recommened__container">
+            <div class="course-card">
+                <img src="IMAGES/img1.jpg">
+                <p>2023 Python master class</p><br>
+                <p>Ramkumar M</p><br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat reiciendis non dolore in ad aliquam
+                    eius quibusdam quod. Vitae, voluptates.</p>
+                <p>4.9 ⭐⭐⭐</p><br>
+                <p>₹449 <del>1999</del></p><br>
+            </div>
+
+            <div class="course-card">
+                <img src="IMAGES/img2.jpg">
+                <p>2023 Python master class</p><br>
+                <p>Ramkumar M</p><br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat reiciendis non dolore in ad aliquam
+                    eius quibusdam quod. Vitae, voluptates.</p>
+                <p>4.9 ⭐⭐⭐⭐</p><br>
+                <p>₹449 <del>1999</del></p><br>
+            </div>
+
+            <div class="course-card">
+                <img src="IMAGES/img3.jpg">
+                <p>2023 Python master class</p><br>
+                <p>Ramkumar M</p><br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat reiciendis non dolore in ad aliquam
+                    eius quibusdam quod. Vitae, voluptates.</p>
+                <p>4.9 ⭐⭐⭐⭐</p><br>
+                <p>₹449 <del>1999</del></p><br>
+            </div>
+
+            <div class="course-card">
+                <img src="IMAGES/img4.jpg">
+                <p>2023 Python master class</p><br>
+                <p>Ramkumar M</p><br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat reiciendis non dolore in ad aliquam
+                    eius quibusdam quod. Vitae, voluptates.</p>
+                <p>4.9 ⭐⭐⭐⭐</p><br>
+                <p>₹449 <del>1999</del></p><br>
+            </div>
+
+
+            <div class="course-card">
+                <img src="IMAGES/img4.jpg">
+                <p>2023 Python master class</p><br>
+                <p>Ramkumar M</p><br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat reiciendis non dolore in ad aliquam
+                    eius quibusdam quod. Vitae, voluptates.</p>
+                <p>4.9⭐⭐⭐⭐⭐</p><br>
+                <p>₹449 <del>1999</del></p><br>
+            </div>
+        </div>
+
+    </div>
+
+    <!--topics-->
+    <div class="topics">
+        <h1 class="topics__title">Topics Recommended for you</h1>
+        <div class="topics__container">
+            <p>Website</p>
+            <p>React</p>
+            <p>JSS</p>
+            <p>Java script</p>
+            <p>python</p>
+            <p>c++</p>
+            <p>oops</p>
+            <p>rajni</p>
+            <p>gethu</p>
+        </div>
+    </div>
+
+    <!--Most popular-->
+    <div class="--Mostpopular--">
+        <h1 class="populartitle">Recommended for you</h1>
+        <div class="popularcontainer">
+            <div class="course-card--popular">
+                <img src="IMAGES/img5.jpg">
+                <p>2023 Python master class</p><br>
+                <p>Ramkumar M</p><br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat reiciendis non dolore in ad aliquam
+                    eius quibusdam quod. Vitae, voluptates.</p>
+                <p>4.9 ⭐⭐⭐</p><br>
+                <p>₹449 <del>1999</del></p><br>
+            </div>
+
+            <div class="course-card--popular">
+                <img src="IMAGES/img6.jpg">
+                <p>2023 Python master class</p><br>
+                <p>Ramkumar M</p><br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat reiciendis non dolore in ad aliquam
+                    eius quibusdam quod. Vitae, voluptates.</p>
+                <p>4.9 ⭐⭐⭐⭐</p><br>
+                <p>₹449 <del>1999</del></p><br>
+            </div>
+
+            <div class="course-card--popular">
+                <img src="IMAGES/img7.jpg">
+                <p>2023 Python master class</p><br>
+                <p>Ramkumar M</p><br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat reiciendis non dolore in ad aliquam
+                    eius quibusdam quod. Vitae, voluptates.</p>
+                <p>4.9 ⭐⭐⭐⭐</p><br>
+                <p>₹449 <del>1999</del></p><br>
+            </div>
+
+            <div class="course-card--popular">
+                <img src="IMAGES/img8.jpg">
+                <p>2023 Python master class</p><br>
+                <p>Ramkumar M</p><br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat reiciendis non dolore in ad aliquam
+                    eius quibusdam quod. Vitae, voluptates.</p>
+                <p>4.9 ⭐⭐⭐⭐</p><br>
+                <p>₹449 <del>1999</del></p><br>
+            </div>
+
+
+            <div class="course-card--popular">
+                <img src="IMAGES/img9.jpg">
+                <p>2023 Python master class</p><br>
+                <p>Ramkumar M</p><br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat reiciendis non dolore in ad aliquam
+                    eius quibusdam quod. Vitae, voluptates.</p>
+                <p>4.9⭐⭐⭐⭐⭐</p><br>
+                <p>₹449 <del>1999</del></p><br>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!--footer tab-->
+    <div class="footer">
+        <div class="footer_one">
+            <div class="footer_one__s1">
+                <p>Udemy Business</p>
+                <p>Teach on Udemy</p>
+                <p>Get the App</p>
+                <p>About us</p>
+                <p>Contact Us</p>
+            </div>
+
+            <div class="footer_one__s2">
+                <p>Careers</p>
+                <p>Blog</p>
+                <p>Help and support</p>
+                <p>Affliliate</p>
+                <p>Investors</p>
+            </div>
+        </div>
+
+        <div class="footer__two">
+            <h1>Udemy</h1>
+            <p>&copy; Udemy.Inc</p>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
