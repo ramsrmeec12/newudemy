@@ -82,7 +82,14 @@
     color: white;
     padding: 10px;
     border-radius: 30px;
+    cursor: pointer;
+    border: black solid 1px;
     
+}
+
+.categories p:hover{
+    background-color: transparent;
+    color: black;
 }
 
 .advertisement{
@@ -105,6 +112,22 @@
     top: 100px;
     left: 100px;
     border-radius: 30px;
+    animation-name: zoom;
+    animation-duration: 3s;
+    opacity: 0;
+    animation-fill-mode: forwards;/*this keeps the animation at the last keyframe at does not allow to opacity 0 as mentioned above*/
+}
+
+@keyframes zoom{
+    0%{
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+        transform: scale(1);/*after the transistion ended it will go back to opacity 0 as defined in main content to overcome this we used animation fill mode in main*/
+    }
 }
 
 .--Recommended--{
